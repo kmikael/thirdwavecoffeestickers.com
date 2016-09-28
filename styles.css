@@ -1,0 +1,97 @@
+*, *:before, *:after {
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e6d6b7;
+    color: #634e42;
+    font-family: Lato, Verdana, sans-serif;
+}
+
+
+.content {
+    width: 65%;
+    margin: 5% auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ca9e67;
+}
+
+a:visited {
+    color: #ca9e67;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.column-left {
+    width: 60%;
+    float: left;
+}
+
+.column-right {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+/*
+.appicon {
+    padding: 2%;
+}
+*/
+
+.text-container {
+    padding: 40% 5% 5% 5%;
+    /*text-align: right;*/
+}
+
+.app-store {
+    padding: 0 5%;
+    /*text-align: right;*/
+}
+
+.app-store img {
+    width: 200px;
+}
+
+.column-right img {
+    width: 350px;
+}
+
+.footer {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: 10pt;
+    color: #8E8E8D;
+}
+
+.footer a {
+    font-size: 12pt;
+}
+
+@media only screen and (max-width: 960px) {
+    .content {
+    width: 95%;
+    margin: 0 auto;
+    }
+    .column-left {
+    width: 100%;
+    text-align: center;
+    }
+    .column-right {
+    width: 100%;
+    text-align: center;
+    }
+    .text-container {
+    padding: 5%;
+    }
+}
