@@ -80,7 +80,7 @@ h1 {
 
 @media only screen and (max-width: 960px) {
     .content {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     }
     .column-left {
